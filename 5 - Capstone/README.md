@@ -4,4 +4,4 @@ This is my capstone project for the FEND program. This web app allows users to p
 
 ## Link
 
-Find the code and setup to try the app [here](https://github.com/iamspd2/fend-travel-app)
+Find the code and setup to try the app [here](https://github.com/iamspd2/fend-travel-app).
