@@ -1,2 +1,3 @@
 # FEND
-This repo contains course materials and projects from Front End Nanodegree.
+
+This repository contains all the projects created while pursuing the Front End Nanodegree program offered by Udacity.
