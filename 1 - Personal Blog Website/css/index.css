@@ -19,7 +19,7 @@
   "ft ft";
 }
 
-@media (min-width: 600px) {
+@media (min-width: 300px) {
   #grid-container {
     height: 100vh;
     display: grid;
@@ -103,11 +103,6 @@
   padding: 0;
 }
 
-@media (min-width: 600px) {
-  #post-5 {
-    display: none;
-  }
-}
 
 /* tile styling */
 
@@ -139,7 +134,7 @@
   text-align: center;
 }
 
-@media (min-width: 600px) and (max-width: 1200px) {
+@media (min-width: 300px) and (max-width: 1200px) {
   .post h4 {
     font-size: 1.5em;
   }
@@ -203,7 +198,7 @@ input[type=submit]:hover {
   transform: scale(0.9);
 }
 
-@media (min-width: 600px) and (max-width: 780px) {
+@media (min-width: 300px) and (max-width: 780px) {
   .newsletter-container {
     display: flex;
     flex-flow: row wrap;
