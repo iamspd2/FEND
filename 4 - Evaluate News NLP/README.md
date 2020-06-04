@@ -29,5 +29,4 @@ Clone this repo and install npm packages:
 
 ## Deploying
 
-I tried deploying the app on Netlify
-It's live at `https://naughty-brown-d13208.netlify.app/`
+I tried deploying the app on Netlify. It's live at https://naughty-brown-d13208.netlify.app/
