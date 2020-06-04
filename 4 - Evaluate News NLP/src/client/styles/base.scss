@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 2;
+}
+
+section {
+    max-width: 800px;
+    margin: 50px auto;
+    table, th, td {
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+            th, td {
+                padding: 5px;
+                text-align: left;    
+            }
+            tr:nth-child(even) {
+            	background-color: #eee;
+			}
+			tr:nth-child(odd) {
+ 				background-color: #fff;
+			}
+			th {
+  				background-color: black;
+  				color: white;
+			}
+}

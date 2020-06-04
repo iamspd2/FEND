@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>NLP Analysis on News Articles</title>
+    </head>
+
+    <body>
+
+        <header>
+            <div class="">
+                Logo
+            </div>
+            <div class="">
+                navigation
+            </div>
+        </header>
+
+        <main>
+            <section>
+                <form class="" onsubmit="return Client.handleSubmit(event)">
+                    <label for="url">Enter a URL</label>
+                    <input id="url" type="text" name="input" value="" placeholder="Enter a URL">
+                    <input type="submit" name="" value="submit" onclick="return Client.handleSubmit(event)" onsubmit="return Client.handleSubmit(event)">
+                </form>
+            </section>
+
+            <section>
+                <strong>News Analysis Results:</strong>
+            
+                <table style="width:100%">
+                    <tr>
+                        <th colspan="2">Sentiment</th>
+                    </tr>
+                    <tr>
+                        <td>Polarity</td>
+                        <td id='pol'></td>
+                    </tr>
+                    <tr>
+                        <td>Confidence</td>
+                        <td id="pol_conf"></td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">Subjectivity</th>
+                    </tr>
+                    <tr>
+                        <td>Subjectivity</td>
+                        <td id="sub"></td>
+                    </tr>
+                    <tr>
+                        <td>Confidence</td>
+                        <td id="sub_conf"></td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">Text</th>
+                    </tr>
+                    <tr>
+                        <td colspan="2" id="text"></td>
+                    </tr>
+                </table>
+            </section>
+        </main>
+
+        <footer>
+            <p>This is a footer</p>
+        </footer>
+
+        <script>
+            if ('serviceWorker' in navigator) {
+              window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/service-worker.js');
+              });
+            }
+          </script>
+
+    </body>
+</html>
